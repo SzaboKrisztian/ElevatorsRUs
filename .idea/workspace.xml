@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="391994c3-ac78-46e0-9936-10597f1d77eb" name="Default Changelist" comment="" />
+    <list default="true" id="391994c3-ac78-46e0-9936-10597f1d77eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/comm/CommunicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +19,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TeeiOXOZJIBnmtwtcACPJEawWV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -48,24 +61,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ConfigurationLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krisztianszabo.config.ConfigurationLoader" />
-      <module name="ElevatorsRUs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krisztianszabo.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.krisztianszabo.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ConfigurationLoader" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,7 +81,8 @@
       <workItem from="1573825115613" duration="1625000" />
       <workItem from="1573921631652" duration="4000" />
       <workItem from="1573923805110" duration="1023000" />
-      <workItem from="1573986384119" duration="10963000" />
+      <workItem from="1573986384119" duration="11664000" />
+      <workItem from="1574017957644" duration="1612000" />
     </task>
     <servers />
   </component>
@@ -89,5 +91,18 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
