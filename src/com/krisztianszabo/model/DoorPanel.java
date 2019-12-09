@@ -17,11 +17,15 @@ public class DoorPanel {
   }
 
   public int getId() {
-    return id;
+    return this.id;
   }
 
   public int getFloor() {
-    return floor;
+    return this.floor;
+  }
+
+  public int[] getElevators() {
+    return this.elevators;
   }
 
   private String generateToString() {

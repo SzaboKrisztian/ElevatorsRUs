@@ -13,8 +13,8 @@ import java.util.*;
 
 public class IniLoader implements ConfigurationLoadingStrategy {
   private final String headingPattern = "(\\[(.)*\\])";
-  private final String elevatorPattern = "([0-9]+(: )(-?([0-9]+)(, )?)+)";
-  private final String doorPanelPattern = "([0-9]+(: )(-?([0-9]+))(; )(([0-9])+(, )?)+)";
+  private final String elevatorPattern = "([0-9]+:\\s*(-?([0-9]+)(,\\s*)*)+)";
+  private final String doorPanelPattern = "([0-9]+:\\s*(-?([0-9]+));\\s*(([0-9])+(,\\s*)*)+)";
   private List<String> configFileData;
   private List<Elevator> elevators;
   private List<DoorPanel> doorPanels;

@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="391994c3-ac78-46e0-9936-10597f1d77eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/comm/CommunicationStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/comm/RandomMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/TravelDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/view/ConsoleOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/krisztianszabo/view/DrawingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorsRUs/com/krisztianszabo/config/IniLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ElevatorsRUs/com/krisztianszabo/config/IniLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorsRUs/com/krisztianszabo/model/DoorPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ElevatorsRUs/com/krisztianszabo/model/DoorPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ElevatorsRUs/com/krisztianszabo/model/Elevator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ElevatorsRUs/com/krisztianszabo/model/Elevator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/krisztianszabo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/krisztianszabo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/krisztianszabo/comm/CommunicationStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/krisztianszabo/comm/CommunicationStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/krisztianszabo/config/IniLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/krisztianszabo/config/IniLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/krisztianszabo/model/DoorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/DoorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/krisztianszabo/model/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/krisztianszabo/model/ElevatorSystem.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,6 +49,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.krisztianszabo.model" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.krisztianszabo.model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\szabo\Documents\SWC3 Henrik\ElevatorsRUs" />
       <recent name="C:\Users\szabo\Documents\SWC3 Henrik\ElevatorsRUs\src" />
@@ -60,13 +74,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ConfigurationLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krisztianszabo.config.ConfigurationLoader" />
+      <module name="ElevatorsRUs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krisztianszabo.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krisztianszabo.Main" />
+      <module name="ElevatorsRUs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krisztianszabo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.krisztianszabo.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ConfigurationLoader" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -83,6 +129,10 @@
       <workItem from="1573923805110" duration="1023000" />
       <workItem from="1573986384119" duration="11664000" />
       <workItem from="1574017957644" duration="1612000" />
+      <workItem from="1574262215045" duration="1187000" />
+      <workItem from="1574428404127" duration="2253000" />
+      <workItem from="1574491404778" duration="18740000" />
+      <workItem from="1574699905220" duration="10000" />
     </task>
     <servers />
   </component>
